@@ -1,13 +1,13 @@
 .transactions-history {
   table {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-    text-align: center;
+    width: 100%; /* Full width for the table */
+    table-layout: fixed; /* Fixed table layout */
+    border-collapse: collapse; /* Collapse borders for better aesthetics */
+    text-align: center; /* Center text in table cells */
   }
 
   th,
   td {
-    border: 1px solid black;
+    border: 1px solid black; /* Add border to table cells */
   }
 }

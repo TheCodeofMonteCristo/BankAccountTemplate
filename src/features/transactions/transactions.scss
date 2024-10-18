@@ -1,16 +1,17 @@
 .transactions {
   figure {
-    display: flex;
+    display: flex; /* Flex display for layout of the balance */
+    justify-content: space-between; /* Space between elements in the figure */
   }
 
   .form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
+    display: flex; /* Flex display for transaction form rows */
+    justify-content: space-between; /* Space between input and buttons */
+    margin-bottom: 0.5rem; /* Margin below each form row */
   }
 
   input,
   button {
-    margin: 0 0.5rem;
+    margin: 0 0.5rem; /* Margin for inputs and buttons for spacing */
   }
 }
